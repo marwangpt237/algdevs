@@ -12,28 +12,28 @@
           "id": "ai-1",
           "title": "ChatGPT",
           "url": "https://chat.openai.com",
-          "descriptionAr": "نموذج ذكاء اصطناعي من OpenAI للمحادثة وكتابة الأكواد",
-          "descriptionEn": "OpenAI's conversational AI model for chat and code generation",
-          "tags": ["ai", "chatbot", "code"],
-          "isFree": true,
+          "descriptionAr": "نموذج ذكاء اصطناعي من OpenAI للمحادثة وكتابة الأكواد وحل المشاكل",
+          "descriptionEn": "OpenAI's AI model for chat, code generation and problem solving",
+          "tags": ["ai", "chatbot", "code", "openai"],
+          "isFree": false,
           "hasFreeplan": true
         },
         {
           "id": "ai-2",
           "title": "Google Gemini",
           "url": "https://gemini.google.com",
-          "descriptionAr": "نموذج الذكاء الاصطناعي من Google مجاناً",
-          "descriptionEn": "Google's AI model, free to use",
-          "tags": ["ai", "chatbot", "google"],
-          "isFree": true,
+          "descriptionAr": "نموذج الذكاء الاصطناعي من Google - مجاني ويدعم العربية",
+          "descriptionEn": "Google's AI model - free and supports Arabic",
+          "tags": ["ai", "chatbot", "google", "arabic"],
+          "isFree": false,
           "hasFreeplan": true
         },
         {
           "id": "ai-3",
           "title": "Claude (Anthropic)",
           "url": "https://claude.ai",
-          "descriptionAr": "نموذج ذكاء اصطناعي قوي من Anthropic مناسب للبرمجة والكتابة",
-          "descriptionEn": "Powerful AI model from Anthropic, great for coding and writing",
+          "descriptionAr": "نموذج ذكاء اصطناعي قوي من Anthropic ممتاز للبرمجة والكتابة",
+          "descriptionEn": "Powerful AI from Anthropic, excellent for coding and writing",
           "tags": ["ai", "chatbot", "code"],
           "isFree": false,
           "hasFreeplan": true
@@ -42,9 +42,9 @@
           "id": "ai-4",
           "title": "Hugging Face",
           "url": "https://huggingface.co",
-          "descriptionAr": "منصة مجتمعية تضم آلاف النماذج والمجموعات البيانية مفتوحة المصدر",
+          "descriptionAr": "منصة مجتمعية تضم آلاف النماذج ومجموعات البيانات مفتوحة المصدر",
           "descriptionEn": "Community platform with thousands of open-source models and datasets",
-          "tags": ["ai", "models", "open-source"],
+          "tags": ["ai", "models", "open-source", "datasets"],
           "isFree": true,
           "hasFreeplan": true
         },
@@ -52,19 +52,19 @@
           "id": "ai-5",
           "title": "Perplexity AI",
           "url": "https://perplexity.ai",
-          "descriptionAr": "محرك بحث ذكي مدعوم بالذكاء الاصطناعي مع مصادر موثّقة",
-          "descriptionEn": "AI-powered search engine with cited sources",
+          "descriptionAr": "محرك بحث ذكي يجيب على أسئلتك مع مصادر موثّقة",
+          "descriptionEn": "AI-powered search engine that answers questions with cited sources",
           "tags": ["ai", "search"],
-          "isFree": true,
+          "isFree": false,
           "hasFreeplan": true
         },
         {
           "id": "ai-6",
           "title": "Google Colab",
           "url": "https://colab.research.google.com",
-          "descriptionAr": "بيئة Jupyter notebooks مجانية مع GPU من Google",
-          "descriptionEn": "Free Jupyter notebooks with GPU from Google",
-          "tags": ["ai", "ml", "notebook", "python"],
+          "descriptionAr": "Jupyter notebooks مجانية في السحابة مع GPU من Google",
+          "descriptionEn": "Free cloud Jupyter notebooks with GPU from Google",
+          "tags": ["ai", "ml", "notebook", "python", "gpu"],
           "isFree": true,
           "hasFreeplan": true
         },
@@ -72,9 +72,9 @@
           "id": "ai-7",
           "title": "Ollama",
           "url": "https://ollama.ai",
-          "descriptionAr": "تشغيل نماذج ذكاء اصطناعي محلياً على جهازك مجاناً",
-          "descriptionEn": "Run AI models locally on your machine for free",
-          "tags": ["ai", "local", "open-source"],
+          "descriptionAr": "شغّل نماذج ذكاء اصطناعي مفتوحة المصدر محلياً على جهازك بسهولة",
+          "descriptionEn": "Run open-source AI models locally on your machine easily",
+          "tags": ["ai", "local", "open-source", "llm"],
           "isFree": true,
           "hasFreeplan": true
         },
@@ -82,10 +82,110 @@
           "id": "ai-8",
           "title": "fast.ai",
           "url": "https://fast.ai",
-          "descriptionAr": "دورات تعلم آلة مجانية ومنتجة مع مكتبة PyTorch",
+          "descriptionAr": "دورات تعلم آلة عملية ومجانية مع مكتبة PyTorch",
           "descriptionEn": "Free practical machine learning courses with PyTorch library",
           "tags": ["ai", "ml", "courses", "python"],
           "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ai-9",
+          "title": "Mistral AI",
+          "url": "https://mistral.ai",
+          "descriptionAr": "نماذج ذكاء اصطناعي أوروبية مفتوحة المصدر عالية الأداء",
+          "descriptionEn": "High-performance open-source European AI models",
+          "tags": ["ai", "llm", "open-source"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ai-10",
+          "title": "Groq",
+          "url": "https://console.groq.com",
+          "descriptionAr": "استدعاء نماذج ذكاء اصطناعي بسرعة فائقة مع API مجاني",
+          "descriptionEn": "Ultra-fast AI model inference with a free API tier",
+          "tags": ["ai", "api", "llm", "fast"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ai-11",
+          "title": "LM Studio",
+          "url": "https://lmstudio.ai",
+          "descriptionAr": "تطبيق سطح مكتب لتشغيل نماذج ذكاء اصطناعي محلياً بواجهة سهلة",
+          "descriptionEn": "Desktop app to run local AI models with a simple interface",
+          "tags": ["ai", "local", "llm", "desktop"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ai-12",
+          "title": "Open WebUI",
+          "url": "https://openwebui.com",
+          "descriptionAr": "واجهة ويب مفتوحة المصدر لاستخدام Ollama ونماذج أخرى",
+          "descriptionEn": "Open-source web UI for Ollama and other AI models",
+          "tags": ["ai", "open-source", "local", "ui"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ai-13",
+          "title": "Stable Diffusion (Automatic1111)",
+          "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+          "descriptionAr": "توليد صور بالذكاء الاصطناعي مجاناً ومحلياً بقدرات لا محدودة",
+          "descriptionEn": "Free local AI image generation with unlimited capabilities",
+          "tags": ["ai", "image", "open-source", "local"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ai-14",
+          "title": "Kaggle",
+          "url": "https://kaggle.com",
+          "descriptionAr": "منصة علوم البيانات مع GPU مجاني ومنافسات وآلاف مجموعات البيانات",
+          "descriptionEn": "Data science platform with free GPU, competitions, and thousands of datasets",
+          "tags": ["ai", "ml", "data-science", "gpu", "competitions"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ai-15",
+          "title": "Replicate",
+          "url": "https://replicate.com",
+          "descriptionAr": "تشغيل نماذج ذكاء اصطناعي متعددة عبر API موحد",
+          "descriptionEn": "Run thousands of AI models via a unified API",
+          "tags": ["ai", "api", "models"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ai-16",
+          "title": "DeepSeek",
+          "url": "https://deepseek.com",
+          "descriptionAr": "نماذج ذكاء اصطناعي قوية مفتوحة المصدر مع API مجاني",
+          "descriptionEn": "Powerful open-source AI models with a generous free API",
+          "tags": ["ai", "llm", "open-source", "api"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ai-17",
+          "title": "Together AI",
+          "url": "https://together.ai",
+          "descriptionAr": "منصة لتشغيل نماذج مفتوحة المصدر بسرعة مع رصيد مجاني مبدئي",
+          "descriptionEn": "Platform for running open-source models fast with free starting credits",
+          "tags": ["ai", "api", "llm", "open-source"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ai-18",
+          "title": "Cursor",
+          "url": "https://cursor.sh",
+          "descriptionAr": "محرر كود مدعوم بالذكاء الاصطناعي لكتابة الأكواد بشكل أسرع",
+          "descriptionEn": "AI-powered code editor for writing code faster",
+          "tags": ["ai", "code", "editor"],
+          "isFree": false,
           "hasFreeplan": true
         }
       ]
@@ -103,7 +203,7 @@
           "url": "https://code.visualstudio.com",
           "descriptionAr": "محرر كود مجاني وقوي من Microsoft مع آلاف الإضافات",
           "descriptionEn": "Free, powerful code editor from Microsoft with thousands of extensions",
-          "tags": ["editor", "ide"],
+          "tags": ["editor", "ide", "microsoft"],
           "isFree": true,
           "hasFreeplan": true
         },
@@ -111,9 +211,9 @@
           "id": "dt-2",
           "title": "GitHub",
           "url": "https://github.com",
-          "descriptionAr": "منصة استضافة الكود والتعاون باستخدام Git",
-          "descriptionEn": "Code hosting and collaboration platform using Git",
-          "tags": ["git", "collaboration", "code"],
+          "descriptionAr": "منصة استضافة الكود والتعاون باستخدام Git مع repos مجانية لا محدودة",
+          "descriptionEn": "Code hosting and collaboration platform with unlimited free repos",
+          "tags": ["git", "collaboration", "vcs"],
           "isFree": true,
           "hasFreeplan": true
         },
@@ -124,7 +224,7 @@
           "descriptionAr": "بيئة تطوير سحابية تعمل مباشرة في المتصفح",
           "descriptionEn": "Cloud-based IDE that runs directly in the browser",
           "tags": ["ide", "cloud", "coding"],
-          "isFree": true,
+          "isFree": false,
           "hasFreeplan": true
         },
         {
@@ -134,17 +234,17 @@
           "descriptionAr": "أداة اختبار وتوثيق APIs احترافية",
           "descriptionEn": "Professional API testing and documentation tool",
           "tags": ["api", "testing"],
-          "isFree": true,
+          "isFree": false,
           "hasFreeplan": true
         },
         {
           "id": "dt-5",
           "title": "Docker",
           "url": "https://docker.com",
-          "descriptionAr": "منصة الحاويات لبناء ونشر التطبيقات",
-          "descriptionEn": "Container platform for building and deploying applications",
+          "descriptionAr": "منصة الحاويات لبناء ونشر التطبيقات بشكل متسق",
+          "descriptionEn": "Container platform for building and deploying applications consistently",
           "tags": ["devops", "containers"],
-          "isFree": true,
+          "isFree": false,
           "hasFreeplan": true
         },
         {
@@ -152,7 +252,7 @@
           "title": "Git",
           "url": "https://git-scm.com",
           "descriptionAr": "نظام التحكم في الإصدارات الأكثر شيوعاً في العالم",
-          "descriptionEn": "The world's most popular version control system",
+          "descriptionEn": "The world's most popular distributed version control system",
           "tags": ["git", "vcs"],
           "isFree": true,
           "hasFreeplan": true
@@ -161,9 +261,9 @@
           "id": "dt-7",
           "title": "Figma",
           "url": "https://figma.com",
-          "descriptionAr": "أداة تصميم واجهات مجانية للطلاب والمطورين",
-          "descriptionEn": "Free UI design tool for students and developers",
-          "tags": ["design", "ui"],
+          "descriptionAr": "أداة تصميم واجهات تعاونية مجانية للطلاب والمطورين",
+          "descriptionEn": "Collaborative UI design tool, free for students and developers",
+          "tags": ["design", "ui", "prototyping"],
           "isFree": false,
           "hasFreeplan": true
         },
@@ -171,9 +271,129 @@
           "id": "dt-8",
           "title": "Excalidraw",
           "url": "https://excalidraw.com",
-          "descriptionAr": "أداة رسم ولوحة بيضاء تعاونية مفتوحة المصدر",
-          "descriptionEn": "Open-source collaborative whiteboard and diagramming tool",
-          "tags": ["design", "diagrams", "open-source"],
+          "descriptionAr": "لوحة رسم بيضاء تعاونية مفتوحة المصدر للرسوم التوضيحية",
+          "descriptionEn": "Open-source collaborative whiteboard for sketches and diagrams",
+          "tags": ["design", "diagrams", "open-source", "whiteboard"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-9",
+          "title": "GitLab",
+          "url": "https://gitlab.com",
+          "descriptionAr": "بديل GitHub مفتوح المصدر مع CI/CD مدمج مجاني",
+          "descriptionEn": "Open-source GitHub alternative with built-in free CI/CD",
+          "tags": ["git", "ci-cd", "open-source"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-10",
+          "title": "Hoppscotch",
+          "url": "https://hoppscotch.io",
+          "descriptionAr": "بديل Postman مفتوح المصدر خفيف وسريع يعمل في المتصفح",
+          "descriptionEn": "Open-source lightweight Postman alternative that runs in the browser",
+          "tags": ["api", "testing", "open-source"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-11",
+          "title": "TablePlus",
+          "url": "https://tableplus.com",
+          "descriptionAr": "عميل قواعد بيانات بواجهة جميلة يدعم PostgreSQL وMySQL وSQLite",
+          "descriptionEn": "Beautiful database client supporting PostgreSQL, MySQL, SQLite",
+          "tags": ["database", "tool"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-12",
+          "title": "DBeaver",
+          "url": "https://dbeaver.io",
+          "descriptionAr": "أداة إدارة قواعد بيانات مجانية ومفتوحة المصدر تدعم جميع قواعد البيانات",
+          "descriptionEn": "Free open-source database management tool supporting all databases",
+          "tags": ["database", "open-source"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-13",
+          "title": "Insomnia",
+          "url": "https://insomnia.rest",
+          "descriptionAr": "عميل REST وGraphQL مفتوح المصدر لاختبار APIs",
+          "descriptionEn": "Open-source REST and GraphQL client for API testing",
+          "tags": ["api", "testing", "open-source"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-14",
+          "title": "Warp Terminal",
+          "url": "https://warp.dev",
+          "descriptionAr": "طرفية حديثة مدعومة بالذكاء الاصطناعي لمطوري macOS وLinux",
+          "descriptionEn": "Modern AI-powered terminal for macOS and Linux developers",
+          "tags": ["terminal", "ai"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-15",
+          "title": "GitHub Copilot",
+          "url": "https://github.com/features/copilot",
+          "descriptionAr": "مساعد برمجة بالذكاء الاصطناعي يكمل الكود تلقائياً - مجاني للطلاب",
+          "descriptionEn": "AI coding assistant with autocomplete - free for students",
+          "tags": ["ai", "code", "editor"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-16",
+          "title": "Vite",
+          "url": "https://vitejs.dev",
+          "descriptionAr": "أداة بناء سريعة جداً لتطبيقات JavaScript الحديثة",
+          "descriptionEn": "Blazing-fast build tool for modern JavaScript applications",
+          "tags": ["javascript", "build-tool", "frontend"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-17",
+          "title": "Nx",
+          "url": "https://nx.dev",
+          "descriptionAr": "نظام بناء ذكي لمشاريع Monorepo مع تحسينات تلقائية",
+          "descriptionEn": "Smart build system for Monorepo projects with automatic optimizations",
+          "tags": ["monorepo", "build-tool", "devops"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-18",
+          "title": "JSON Crack",
+          "url": "https://jsoncrack.com",
+          "descriptionAr": "تصور بيانات JSON بشكل تفاعلي وجميل في المتصفح",
+          "descriptionEn": "Visualize JSON data interactively and beautifully in the browser",
+          "tags": ["json", "visualization", "tool"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-19",
+          "title": "RegExr",
+          "url": "https://regexr.com",
+          "descriptionAr": "أداة تفاعلية لتعلم وتجربة التعبيرات النظامية Regex",
+          "descriptionEn": "Interactive tool for learning and testing Regular Expressions",
+          "tags": ["regex", "tool", "learning"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "dt-20",
+          "title": "Carbon",
+          "url": "https://carbon.now.sh",
+          "descriptionAr": "أنشئ صوراً جميلة من الأكواد البرمجية للمشاركة",
+          "descriptionEn": "Create beautiful images of your source code to share",
+          "tags": ["code", "tool", "sharing"],
           "isFree": true,
           "hasFreeplan": true
         }
@@ -190,8 +410,8 @@
           "id": "lp-1",
           "title": "freeCodeCamp",
           "url": "https://freecodecamp.org",
-          "descriptionAr": "تعلم البرمجة مجاناً مع شهادات معترف بها",
-          "descriptionEn": "Learn coding for free with recognized certifications",
+          "descriptionAr": "تعلم البرمجة مجاناً مع شهادات معترف بها عالمياً",
+          "descriptionEn": "Learn coding for free with globally recognized certifications",
           "tags": ["web", "javascript", "python", "free"],
           "isFree": true,
           "hasFreeplan": true
@@ -200,7 +420,7 @@
           "id": "lp-2",
           "title": "The Odin Project",
           "url": "https://theodinproject.com",
-          "descriptionAr": "مسار تعليمي شامل لتطوير الويب مجاناً",
+          "descriptionAr": "مسار تعليمي شامل لتطوير الويب الكامل مجاناً",
           "descriptionEn": "Comprehensive free curriculum for full-stack web development",
           "tags": ["web", "javascript", "html", "css"],
           "isFree": true,
@@ -210,8 +430,8 @@
           "id": "lp-3",
           "title": "CS50 (Harvard)",
           "url": "https://cs50.harvard.edu",
-          "descriptionAr": "أشهر دورة علوم الحاسوب في العالم من جامعة هارفارد - مجانية",
-          "descriptionEn": "The world's most famous computer science course from Harvard - free",
+          "descriptionAr": "أشهر دورة علوم حاسوب في العالم من جامعة هارفارد - مجانية تماماً",
+          "descriptionEn": "The world's most famous CS course from Harvard - completely free",
           "tags": ["cs", "python", "c", "programming"],
           "isFree": true,
           "hasFreeplan": true
@@ -220,8 +440,8 @@
           "id": "lp-4",
           "title": "Khan Academy",
           "url": "https://khanacademy.org",
-          "descriptionAr": "تعليم شامل في البرمجة والرياضيات مجاناً باللغة العربية",
-          "descriptionEn": "Comprehensive free education in programming and math, available in Arabic",
+          "descriptionAr": "تعليم شامل في البرمجة والرياضيات مجاناً - متاح بالعربية",
+          "descriptionEn": "Comprehensive free education in programming and math - available in Arabic",
           "tags": ["math", "programming", "arabic"],
           "isFree": true,
           "hasFreeplan": true
@@ -230,18 +450,18 @@
           "id": "lp-5",
           "title": "LeetCode",
           "url": "https://leetcode.com",
-          "descriptionAr": "تدرب على أسئلة المقابلات التقنية وهياكل البيانات",
-          "descriptionEn": "Practice technical interview questions and data structures",
+          "descriptionAr": "تدرب على مسائل المقابلات التقنية وهياكل البيانات والخوارزميات",
+          "descriptionEn": "Practice technical interview problems, data structures and algorithms",
           "tags": ["algorithms", "interviews", "dsa"],
-          "isFree": true,
+          "isFree": false,
           "hasFreeplan": true
         },
         {
           "id": "lp-6",
           "title": "roadmap.sh",
           "url": "https://roadmap.sh",
-          "descriptionAr": "خرائط طريق تفصيلية لكل مسارات البرمجة",
-          "descriptionEn": "Detailed roadmaps for every programming career path",
+          "descriptionAr": "خرائط طريق تفصيلية لكل مسارات البرمجة من المبتدئ للمحترف",
+          "descriptionEn": "Detailed roadmaps for every programming career path from beginner to expert",
           "tags": ["roadmap", "career", "learning"],
           "isFree": true,
           "hasFreeplan": true
@@ -250,7 +470,7 @@
           "id": "lp-7",
           "title": "MDN Web Docs",
           "url": "https://developer.mozilla.org",
-          "descriptionAr": "مرجع شامل لتطوير الويب من Mozilla",
+          "descriptionAr": "مرجع شامل لتطوير الويب من Mozilla - الأفضل لHTML وCSS وJavaScript",
           "descriptionEn": "Comprehensive web development reference from Mozilla",
           "tags": ["web", "html", "css", "javascript", "docs"],
           "isFree": true,
@@ -260,9 +480,99 @@
           "id": "lp-8",
           "title": "W3Schools",
           "url": "https://w3schools.com",
-          "descriptionAr": "مرجع تعليمي تفاعلي لتقنيات الويب مع أمثلة مباشرة",
-          "descriptionEn": "Interactive web technology reference with live examples",
+          "descriptionAr": "مرجع تعليمي تفاعلي لتقنيات الويب مع أمثلة قابلة للتشغيل",
+          "descriptionEn": "Interactive web technology reference with runnable examples",
           "tags": ["web", "html", "css", "javascript"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lp-9",
+          "title": "Codecademy",
+          "url": "https://codecademy.com",
+          "descriptionAr": "دورات تفاعلية لتعلم البرمجة من الصفر بطريقة ممتعة",
+          "descriptionEn": "Interactive courses to learn programming from scratch in a fun way",
+          "tags": ["web", "python", "javascript", "interactive"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lp-10",
+          "title": "Exercism",
+          "url": "https://exercism.org",
+          "descriptionAr": "تمارين برمجة مجانية في أكثر من 60 لغة مع مراجعة بشرية",
+          "descriptionEn": "Free coding exercises in 60+ languages with human mentoring",
+          "tags": ["exercises", "mentoring", "languages"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lp-11",
+          "title": "HackerRank",
+          "url": "https://hackerrank.com",
+          "descriptionAr": "تحديات برمجية واختبارات لإعداد نفسك للمقابلات التقنية",
+          "descriptionEn": "Coding challenges and assessments to prepare for technical interviews",
+          "tags": ["challenges", "interviews", "dsa"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lp-12",
+          "title": "Codeforces",
+          "url": "https://codeforces.com",
+          "descriptionAr": "منصة البرمجة التنافسية الأكثر شعبية في العالم",
+          "descriptionEn": "The world's most popular competitive programming platform",
+          "tags": ["competitive", "algorithms", "contests"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lp-13",
+          "title": "Elzero Web School",
+          "url": "https://elzero.org",
+          "descriptionAr": "أفضل دورات برمجة عربية مجانية - HTML وCSS وJavaScript وPHP",
+          "descriptionEn": "Best free Arabic programming courses - HTML, CSS, JavaScript, PHP",
+          "tags": ["arabic", "web", "javascript", "free"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lp-14",
+          "title": "Codewars",
+          "url": "https://codewars.com",
+          "descriptionAr": "تحديات برمجية مجانية بنظام الكاتا الياباني لتحسين مهاراتك",
+          "descriptionEn": "Free coding challenges with a Japanese kata system to sharpen your skills",
+          "tags": ["challenges", "gamified", "algorithms"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lp-15",
+          "title": "VisuAlgo",
+          "url": "https://visualgo.net",
+          "descriptionAr": "تصور بصري تفاعلي للخوارزميات وهياكل البيانات - مثالي للمبتدئين",
+          "descriptionEn": "Interactive visual animations for algorithms and data structures",
+          "tags": ["algorithms", "visualization", "dsa"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lp-16",
+          "title": "ProjectEuler",
+          "url": "https://projecteuler.net",
+          "descriptionAr": "مسائل رياضية وبرمجية صعبة لتطوير مهاراتك في حل المشكلات",
+          "descriptionEn": "Mathematical and programming problems to develop problem-solving skills",
+          "tags": ["math", "algorithms", "challenges"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lp-17",
+          "title": "Teach Yourself CS",
+          "url": "https://teachyourselfcs.com",
+          "descriptionAr": "دليل شامل لتعلم علوم الحاسوب ذاتياً بنفس مستوى الجامعات العالمية",
+          "descriptionEn": "Comprehensive guide to self-teaching CS at world-class university level",
+          "tags": ["cs", "self-learning", "guide"],
           "isFree": true,
           "hasFreeplan": true
         }
@@ -279,8 +589,8 @@
           "id": "c-1",
           "title": "Coursera (Audit for Free)",
           "url": "https://coursera.org",
-          "descriptionAr": "دورات من أفضل جامعات العالم - يمكن متابعتها مجاناً بدون شهادة",
-          "descriptionEn": "Courses from top universities - free to audit without certificate",
+          "descriptionAr": "دورات من أفضل جامعات العالم - متابعتها مجانية بدون شهادة",
+          "descriptionEn": "Courses from top universities - free to audit without a certificate",
           "tags": ["courses", "university"],
           "isFree": false,
           "hasFreeplan": true
@@ -289,8 +599,8 @@
           "id": "c-2",
           "title": "edX",
           "url": "https://edx.org",
-          "descriptionAr": "دورات أكاديمية من جامعات MIT وهارفارد وغيرها مجاناً",
-          "descriptionEn": "Academic courses from MIT, Harvard, and others for free",
+          "descriptionAr": "دورات أكاديمية من MIT وهارفارد وغيرها - مجانية بدون شهادة",
+          "descriptionEn": "Academic courses from MIT, Harvard and others - free without certificate",
           "tags": ["courses", "university"],
           "isFree": false,
           "hasFreeplan": true
@@ -299,8 +609,8 @@
           "id": "c-3",
           "title": "YouTube",
           "url": "https://youtube.com",
-          "descriptionAr": "آلاف الدورات البرمجية المجانية - ابحث عن اسم التقنية + tutorial",
-          "descriptionEn": "Thousands of free programming courses - search technology name + tutorial",
+          "descriptionAr": "آلاف الدورات البرمجية المجانية بالعربية والإنجليزية",
+          "descriptionEn": "Thousands of free programming courses in Arabic and English",
           "tags": ["video", "free", "arabic"],
           "isFree": true,
           "hasFreeplan": true
@@ -309,49 +619,119 @@
           "id": "c-4",
           "title": "MIT OpenCourseWare",
           "url": "https://ocw.mit.edu",
-          "descriptionAr": "مواد دراسية كاملة من MIT مجاناً للجميع",
-          "descriptionEn": "Complete study materials from MIT, free for everyone",
+          "descriptionAr": "مواد دراسية كاملة لجميع مواد MIT مجاناً للجميع",
+          "descriptionEn": "Complete study materials for all MIT courses, free for everyone",
           "tags": ["courses", "cs", "mit"],
           "isFree": true,
           "hasFreeplan": true
         },
         {
           "id": "c-5",
-          "title": "Elzero Web School",
-          "url": "https://elzero.org",
-          "descriptionAr": "أفضل دورات برمجة عربية مجانية - HTML, CSS, JavaScript وأكثر",
-          "descriptionEn": "Best free Arabic programming courses - HTML, CSS, JavaScript and more",
-          "tags": ["arabic", "web", "javascript", "free"],
-          "isFree": true,
-          "hasFreeplan": true
-        },
-        {
-          "id": "c-6",
           "title": "Google Digital Garage",
           "url": "https://learndigital.withgoogle.com",
-          "descriptionAr": "دورات رقمية مجانية مع شهادات من Google",
-          "descriptionEn": "Free digital courses with certifications from Google",
+          "descriptionAr": "دورات رقمية مجانية مع شهادات معترف بها من Google",
+          "descriptionEn": "Free digital courses with recognized certifications from Google",
           "tags": ["digital", "google", "certificates"],
           "isFree": true,
           "hasFreeplan": true
         },
         {
-          "id": "c-7",
+          "id": "c-6",
           "title": "Scrimba",
           "url": "https://scrimba.com",
-          "descriptionAr": "دورات تفاعلية لتطوير الويب مع إمكانية البرمجة داخل الفيديو",
-          "descriptionEn": "Interactive web development courses with in-video coding",
+          "descriptionAr": "دورات تفاعلية لتطوير الويب مع إمكانية البرمجة مباشرة داخل الفيديو",
+          "descriptionEn": "Interactive web development courses with coding directly inside videos",
           "tags": ["web", "javascript", "interactive"],
           "isFree": false,
           "hasFreeplan": true
         },
         {
-          "id": "c-8",
+          "id": "c-7",
           "title": "Microsoft Learn",
           "url": "https://learn.microsoft.com",
-          "descriptionAr": "تعلم تقنيات Microsoft مجاناً مع مسارات تعليمية احترافية",
-          "descriptionEn": "Learn Microsoft technologies for free with professional learning paths",
+          "descriptionAr": "تعلم Azure وDotNet والتقنيات الحديثة مجاناً مع مسارات احترافية",
+          "descriptionEn": "Learn Azure, .NET and modern technologies free with professional paths",
           "tags": ["microsoft", "azure", "dotnet", "free"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "c-8",
+          "title": "AWS Training & Certification",
+          "url": "https://aws.amazon.com/training",
+          "descriptionAr": "دورات AWS السحابية المجانية مع مسارات الشهادات",
+          "descriptionEn": "Free AWS cloud courses with certification paths",
+          "tags": ["cloud", "aws", "devops"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "c-9",
+          "title": "The Missing Semester (MIT)",
+          "url": "https://missing.csail.mit.edu",
+          "descriptionAr": "الدرس المفقود في تعليم الحاسوب - أدوات سطر الأوامر والإنتاجية",
+          "descriptionEn": "The missing CS education - command-line tools and productivity",
+          "tags": ["linux", "tools", "productivity"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "c-10",
+          "title": "Full Stack Open",
+          "url": "https://fullstackopen.com",
+          "descriptionAr": "دورة مجانية من جامعة هلسنكي لتعلم تطوير الويب الكامل بـ React",
+          "descriptionEn": "Free course from University of Helsinki for full-stack web dev with React",
+          "tags": ["web", "react", "javascript", "nodejs"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "c-11",
+          "title": "CS Dojo",
+          "url": "https://youtube.com/@CSDojo",
+          "descriptionAr": "دورات برمجة وخوارزميات مجانية على YouTube",
+          "descriptionEn": "Free programming and algorithms courses on YouTube",
+          "tags": ["python", "algorithms", "youtube"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "c-12",
+          "title": "Fireship",
+          "url": "https://fireship.io",
+          "descriptionAr": "دروس تقنية سريعة ومركزة - مثالية للمطورين المشغولين",
+          "descriptionEn": "Fast and focused tech tutorials - perfect for busy developers",
+          "tags": ["web", "javascript", "youtube"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "c-13",
+          "title": "Traversy Media",
+          "url": "https://youtube.com/@TraversyMedia",
+          "descriptionAr": "أفضل قناة تطوير ويب على YouTube مع دورات شاملة ومجانية",
+          "descriptionEn": "One of the best web development YouTube channels with comprehensive free courses",
+          "tags": ["web", "javascript", "youtube"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "c-14",
+          "title": "Programiz",
+          "url": "https://programiz.com",
+          "descriptionAr": "تعلم Python وJava وC++ وغيرها مع أمثلة وتمارين مجانية",
+          "descriptionEn": "Learn Python, Java, C++ and more with free examples and exercises",
+          "tags": ["python", "java", "c++"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "c-15",
+          "title": "Nasser Academy (Arabic)",
+          "url": "https://www.youtube.com/@NasserAcademy",
+          "descriptionAr": "دورات برمجة عربية متميزة تشمل Python والبرمجة الكائنية وقواعد البيانات",
+          "descriptionEn": "Excellent Arabic programming courses covering Python, OOP and databases",
+          "tags": ["arabic", "python", "youtube", "free"],
           "isFree": true,
           "hasFreeplan": true
         }
@@ -368,8 +748,8 @@
           "id": "b-1",
           "title": "Free Programming Books (GitHub)",
           "url": "https://ebookfoundation.github.io/free-programming-books",
-          "descriptionAr": "أكبر قائمة كتب برمجة مجانية على الإنترنت - مئات الكتب",
-          "descriptionEn": "The largest list of free programming books online - hundreds of books",
+          "descriptionAr": "أكبر قائمة كتب برمجة مجانية على الإنترنت - مئات الكتب بعشرات اللغات",
+          "descriptionEn": "The largest list of free programming books - hundreds in dozens of languages",
           "tags": ["books", "programming", "free"],
           "isFree": true,
           "hasFreeplan": true
@@ -378,8 +758,8 @@
           "id": "b-2",
           "title": "Z-Library",
           "url": "https://z-lib.id",
-          "descriptionAr": "أكبر مكتبة كتب رقمية في العالم - ملايين الكتب",
-          "descriptionEn": "The world's largest digital library - millions of books",
+          "descriptionAr": "أكبر مكتبة كتب رقمية في العالم - ملايين الكتب مجاناً",
+          "descriptionEn": "The world's largest digital library - millions of books for free",
           "tags": ["books", "ebooks", "pdf"],
           "isFree": true,
           "hasFreeplan": true
@@ -408,7 +788,7 @@
           "id": "b-5",
           "title": "DevDocs",
           "url": "https://devdocs.io",
-          "descriptionAr": "توثيق شامل لجميع التقنيات في مكان واحد يعمل دون إنترنت",
+          "descriptionAr": "توثيق شامل لجميع التقنيات في مكان واحد يعمل بدون إنترنت",
           "descriptionEn": "Comprehensive documentation for all technologies in one place, works offline",
           "tags": ["docs", "reference", "offline"],
           "isFree": true,
@@ -423,6 +803,76 @@
           "tags": ["books", "open-source", "cs"],
           "isFree": true,
           "hasFreeplan": true
+        },
+        {
+          "id": "b-7",
+          "title": "O'Reilly (Free Resources)",
+          "url": "https://www.oreilly.com/free",
+          "descriptionAr": "كتب ومقالات تقنية مجانية من أشهر دار نشر تقنية في العالم",
+          "descriptionEn": "Free technical books and articles from the world's most famous tech publisher",
+          "tags": ["books", "technical"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "b-8",
+          "title": "Eloquent JavaScript",
+          "url": "https://eloquentjavascript.net",
+          "descriptionAr": "كتاب JavaScript الأفضل مجاناً على الإنترنت - من المبتدئ للمتقدم",
+          "descriptionEn": "The best JavaScript book available free online - beginner to advanced",
+          "tags": ["books", "javascript"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "b-9",
+          "title": "You Don't Know JS",
+          "url": "https://github.com/getify/You-Dont-Know-JS",
+          "descriptionAr": "سلسلة كتب عميقة لفهم JavaScript من الداخل - مجانية على GitHub",
+          "descriptionEn": "Deep book series to understand JavaScript from the inside - free on GitHub",
+          "tags": ["books", "javascript"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "b-10",
+          "title": "Python for Everybody",
+          "url": "https://py4e.com",
+          "descriptionAr": "كتاب Python المجاني من الدكتور Chuck Severance مع فيديوهات",
+          "descriptionEn": "Free Python book from Dr. Chuck Severance with companion videos",
+          "tags": ["books", "python"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "b-11",
+          "title": "The Linux Command Line",
+          "url": "https://linuxcommand.org/tlcl.php",
+          "descriptionAr": "كتاب سطر الأوامر Linux مجاناً - الأفضل لتعلم الطرفية",
+          "descriptionEn": "Free Linux command line book - the best for learning the terminal",
+          "tags": ["books", "linux", "terminal"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "b-12",
+          "title": "Pro Git",
+          "url": "https://git-scm.com/book",
+          "descriptionAr": "الكتاب الرسمي لـ Git مجاناً - كل ما تحتاجه لإتقان Git",
+          "descriptionEn": "The official Git book, free - everything you need to master Git",
+          "tags": ["books", "git"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "b-13",
+          "title": "Clean Code (Summary)",
+          "url": "https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29",
+          "descriptionAr": "ملخص كتاب Clean Code الأفضل في كتابة كود نظيف وقابل للصيانة",
+          "descriptionEn": "Summary of the best book on writing clean and maintainable code",
+          "tags": ["books", "best-practices"],
+          "isFree": true,
+          "hasFreeplan": true
         }
       ]
     },
@@ -430,15 +880,15 @@
       "id": "hosting",
       "icon": "🌐",
       "nameAr": "استضافة مجانية",
-      "nameEn": "Free Hosting",
+      "nameEn": "Free Hosting & Cloud",
       "slug": "hosting",
       "resources": [
         {
           "id": "h-1",
           "title": "GitHub Pages",
           "url": "https://pages.github.com",
-          "descriptionAr": "استضافة مجانية للمواقع الثابتة من GitHub",
-          "descriptionEn": "Free static website hosting from GitHub",
+          "descriptionAr": "استضافة مجانية للمواقع الثابتة مباشرة من GitHub",
+          "descriptionEn": "Free static website hosting directly from GitHub",
           "tags": ["hosting", "static", "free"],
           "isFree": true,
           "hasFreeplan": true
@@ -447,9 +897,9 @@
           "id": "h-2",
           "title": "Vercel",
           "url": "https://vercel.com",
-          "descriptionAr": "استضافة مجانية ممتازة لمشاريع React وNext.js",
-          "descriptionEn": "Excellent free hosting for React and Next.js projects",
-          "tags": ["hosting", "react", "nextjs"],
+          "descriptionAr": "استضافة ممتازة مجانية لمشاريع React وNext.js مع Serverless",
+          "descriptionEn": "Excellent free hosting for React and Next.js with Serverless functions",
+          "tags": ["hosting", "react", "nextjs", "serverless"],
           "isFree": false,
           "hasFreeplan": true
         },
@@ -457,8 +907,8 @@
           "id": "h-3",
           "title": "Netlify",
           "url": "https://netlify.com",
-          "descriptionAr": "استضافة مجانية للمواقع الثابتة مع CI/CD تلقائي",
-          "descriptionEn": "Free static site hosting with automatic CI/CD",
+          "descriptionAr": "استضافة مواقع ثابتة مع CI/CD تلقائي ووظائف Serverless",
+          "descriptionEn": "Static site hosting with automatic CI/CD and Serverless functions",
           "tags": ["hosting", "static", "ci-cd"],
           "isFree": false,
           "hasFreeplan": true
@@ -467,8 +917,8 @@
           "id": "h-4",
           "title": "Railway",
           "url": "https://railway.app",
-          "descriptionAr": "استضافة سهلة للتطبيقات مع قاعدة بيانات - خطة مجانية",
-          "descriptionEn": "Easy app hosting with database - free plan available",
+          "descriptionAr": "استضافة تطبيقات مع قاعدة بيانات - بسيطة وسهلة الاستخدام",
+          "descriptionEn": "App hosting with database - simple and easy to use",
           "tags": ["hosting", "backend", "database"],
           "isFree": false,
           "hasFreeplan": true
@@ -477,8 +927,8 @@
           "id": "h-5",
           "title": "Render",
           "url": "https://render.com",
-          "descriptionAr": "استضافة سحابية مع خطة مجانية للمشاريع الصغيرة",
-          "descriptionEn": "Cloud hosting with a free plan for small projects",
+          "descriptionAr": "استضافة سحابية بسيطة للتطبيقات وقواعد البيانات بخطة مجانية",
+          "descriptionEn": "Simple cloud hosting for apps and databases with a free plan",
           "tags": ["hosting", "cloud"],
           "isFree": false,
           "hasFreeplan": true
@@ -487,9 +937,9 @@
           "id": "h-6",
           "title": "Supabase",
           "url": "https://supabase.com",
-          "descriptionAr": "بديل Firebase مفتوح المصدر مع قاعدة بيانات PostgreSQL مجانية",
-          "descriptionEn": "Open-source Firebase alternative with free PostgreSQL database",
-          "tags": ["database", "backend", "open-source"],
+          "descriptionAr": "بديل Firebase مفتوح المصدر مع PostgreSQL وAuthentication مجاني",
+          "descriptionEn": "Open-source Firebase alternative with free PostgreSQL and Authentication",
+          "tags": ["database", "backend", "open-source", "auth"],
           "isFree": false,
           "hasFreeplan": true
         },
@@ -501,6 +951,56 @@
           "descriptionEn": "Unlimited free static site hosting with global CDN",
           "tags": ["hosting", "cdn", "free"],
           "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "h-8",
+          "title": "Firebase (Google)",
+          "url": "https://firebase.google.com",
+          "descriptionAr": "منصة Google لبناء تطبيقات ويب وموبايل مع خدمات مجانية كثيرة",
+          "descriptionEn": "Google's platform for building web and mobile apps with many free services",
+          "tags": ["hosting", "database", "google", "mobile"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "h-9",
+          "title": "PlanetScale",
+          "url": "https://planetscale.com",
+          "descriptionAr": "قاعدة بيانات MySQL سحابية بنية scalable مع خطة مجانية",
+          "descriptionEn": "Cloud MySQL database with scalable infrastructure and free plan",
+          "tags": ["database", "mysql", "cloud"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "h-10",
+          "title": "Fly.io",
+          "url": "https://fly.io",
+          "descriptionAr": "نشر تطبيقات Docker مجاناً بالقرب من مستخدميك حول العالم",
+          "descriptionEn": "Deploy Docker apps for free close to your users worldwide",
+          "tags": ["hosting", "docker", "cloud"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "h-11",
+          "title": "InfinityFree",
+          "url": "https://infinityfree.net",
+          "descriptionAr": "استضافة PHP وMySQL مجانية تماماً مع مساحة غير محدودة",
+          "descriptionEn": "Completely free PHP and MySQL hosting with unlimited space",
+          "tags": ["hosting", "php", "mysql", "free"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "h-12",
+          "title": "Neon (Serverless Postgres)",
+          "url": "https://neon.tech",
+          "descriptionAr": "قاعدة بيانات PostgreSQL serverless مجانية مع branching",
+          "descriptionEn": "Free serverless PostgreSQL database with branching",
+          "tags": ["database", "postgres", "serverless"],
+          "isFree": false,
           "hasFreeplan": true
         }
       ]
@@ -516,8 +1016,8 @@
           "id": "sw-1",
           "title": "LibreOffice",
           "url": "https://libreoffice.org",
-          "descriptionAr": "بديل مجاني كامل لـ Microsoft Office",
-          "descriptionEn": "Complete free alternative to Microsoft Office",
+          "descriptionAr": "مجموعة مكتبية كاملة ومجانية بديل Microsoft Office",
+          "descriptionEn": "Complete and free office suite, Microsoft Office alternative",
           "tags": ["office", "productivity", "open-source"],
           "isFree": true,
           "hasFreeplan": true
@@ -536,8 +1036,8 @@
           "id": "sw-3",
           "title": "VLC Media Player",
           "url": "https://videolan.org",
-          "descriptionAr": "مشغل وسائط متعددة مجاني يدعم جميع الصيغ",
-          "descriptionEn": "Free multimedia player supporting all formats",
+          "descriptionAr": "مشغل وسائط متعددة مجاني يدعم جميع الصيغ بدون استثناء",
+          "descriptionEn": "Free multimedia player supporting all formats without exception",
           "tags": ["media", "video", "open-source"],
           "isFree": true,
           "hasFreeplan": true
@@ -546,8 +1046,8 @@
           "id": "sw-4",
           "title": "OBS Studio",
           "url": "https://obsproject.com",
-          "descriptionAr": "برنامج بث مباشر وتسجيل شاشة احترافي مجاني",
-          "descriptionEn": "Free professional live streaming and screen recording software",
+          "descriptionAr": "برنامج بث مباشر وتسجيل شاشة احترافي ومجاني تماماً",
+          "descriptionEn": "Completely free professional live streaming and screen recording software",
           "tags": ["streaming", "recording", "open-source"],
           "isFree": true,
           "hasFreeplan": true
@@ -556,8 +1056,8 @@
           "id": "sw-5",
           "title": "Inkscape",
           "url": "https://inkscape.org",
-          "descriptionAr": "محرر رسوم متجهة مجاني - بديل Adobe Illustrator",
-          "descriptionEn": "Free vector graphics editor - Adobe Illustrator alternative",
+          "descriptionAr": "محرر رسوم متجهة مجاني ومفتوح المصدر - بديل Adobe Illustrator",
+          "descriptionEn": "Free open-source vector graphics editor - Adobe Illustrator alternative",
           "tags": ["design", "vector", "open-source"],
           "isFree": true,
           "hasFreeplan": true
@@ -566,8 +1066,8 @@
           "id": "sw-6",
           "title": "7-Zip",
           "url": "https://7-zip.org",
-          "descriptionAr": "برنامج ضغط وفك ضغط الملفات المجاني الأفضل",
-          "descriptionEn": "The best free file compression and decompression software",
+          "descriptionAr": "أفضل برنامج ضغط وفك ضغط مجاني بضغط عالي الكفاءة",
+          "descriptionEn": "The best free compression tool with high efficiency",
           "tags": ["utility", "compression"],
           "isFree": true,
           "hasFreeplan": true
@@ -576,8 +1076,8 @@
           "id": "sw-7",
           "title": "Kdenlive",
           "url": "https://kdenlive.org",
-          "descriptionAr": "محرر فيديو احترافي مجاني ومفتوح المصدر",
-          "descriptionEn": "Free and open-source professional video editor",
+          "descriptionAr": "محرر فيديو احترافي مجاني ومفتوح المصدر لينوكس وويندوز",
+          "descriptionEn": "Free and open-source professional video editor for Linux and Windows",
           "tags": ["video", "editing", "open-source"],
           "isFree": true,
           "hasFreeplan": true
@@ -586,9 +1086,49 @@
           "id": "sw-8",
           "title": "Blender",
           "url": "https://blender.org",
-          "descriptionAr": "برنامج ثلاثي الأبعاد احترافي مجاني ومفتوح المصدر",
-          "descriptionEn": "Professional free and open-source 3D software",
-          "tags": ["3d", "design", "open-source"],
+          "descriptionAr": "برنامج ثلاثي الأبعاد وتحريك احترافي مجاني ومفتوح المصدر",
+          "descriptionEn": "Professional free and open-source 3D modeling and animation software",
+          "tags": ["3d", "design", "open-source", "animation"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "sw-9",
+          "title": "Audacity",
+          "url": "https://audacityteam.org",
+          "descriptionAr": "محرر صوت مجاني ومفتوح المصدر للتسجيل والتحرير",
+          "descriptionEn": "Free open-source audio editor for recording and editing",
+          "tags": ["audio", "editing", "open-source"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "sw-10",
+          "title": "ShareX",
+          "url": "https://getsharex.com",
+          "descriptionAr": "أداة لقطة شاشة وتسجيل مجانية ومفتوحة المصدر لويندوز",
+          "descriptionEn": "Free open-source screenshot and recording tool for Windows",
+          "tags": ["screenshot", "recording", "windows"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "sw-11",
+          "title": "HandBrake",
+          "url": "https://handbrake.fr",
+          "descriptionAr": "محول فيديو مجاني ومفتوح المصدر يدعم جميع الصيغ",
+          "descriptionEn": "Free open-source video converter supporting all formats",
+          "tags": ["video", "converter", "open-source"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "sw-12",
+          "title": "Ventoy",
+          "url": "https://ventoy.net",
+          "descriptionAr": "إنشاء USB قابل للإقلاع بأكثر من نظام تشغيل في آن واحد",
+          "descriptionEn": "Create bootable USB with multiple OS images at once",
+          "tags": ["utility", "linux", "os"],
           "isFree": true,
           "hasFreeplan": true
         }
@@ -605,8 +1145,8 @@
           "id": "p-1",
           "title": "Bitwarden",
           "url": "https://bitwarden.com",
-          "descriptionAr": "مدير كلمات مرور مجاني ومفتوح المصدر وآمن",
-          "descriptionEn": "Free, open-source and secure password manager",
+          "descriptionAr": "مدير كلمات مرور مجاني ومفتوح المصدر آمن تماماً",
+          "descriptionEn": "Completely free, open-source and secure password manager",
           "tags": ["password", "security", "open-source"],
           "isFree": true,
           "hasFreeplan": true
@@ -615,8 +1155,8 @@
           "id": "p-2",
           "title": "ProtonMail",
           "url": "https://proton.me",
-          "descriptionAr": "بريد إلكتروني مشفر من سويسرا - يحمي خصوصيتك",
-          "descriptionEn": "Encrypted email from Switzerland - protects your privacy",
+          "descriptionAr": "بريد إلكتروني مشفر من سويسرا يحترم خصوصيتك",
+          "descriptionEn": "End-to-end encrypted email from Switzerland that respects your privacy",
           "tags": ["email", "privacy", "encryption"],
           "isFree": false,
           "hasFreeplan": true
@@ -625,39 +1165,663 @@
           "id": "p-3",
           "title": "Brave Browser",
           "url": "https://brave.com",
-          "descriptionAr": "متصفح يحجب الإعلانات ويحمي خصوصيتك تلقائياً",
-          "descriptionEn": "Browser that automatically blocks ads and protects your privacy",
-          "tags": ["browser", "privacy", "ads"],
+          "descriptionAr": "متصفح يحجب الإعلانات والمتتبعين تلقائياً ويحمي خصوصيتك",
+          "descriptionEn": "Browser that automatically blocks ads and trackers, protecting your privacy",
+          "tags": ["browser", "privacy", "adblock"],
           "isFree": true,
           "hasFreeplan": true
         },
         {
           "id": "p-4",
-          "title": "Mullvad VPN",
-          "url": "https://mullvad.net",
-          "descriptionAr": "VPN يركز على الخصوصية مع سياسة عدم تخزين السجلات",
-          "descriptionEn": "Privacy-focused VPN with a no-logs policy",
-          "tags": ["vpn", "privacy"],
-          "isFree": false,
-          "hasFreeplan": false
-        },
-        {
-          "id": "p-5",
           "title": "uBlock Origin",
           "url": "https://ublockorigin.com",
-          "descriptionAr": "أفضل إضافة حجب إعلانات مجانية للمتصفح",
-          "descriptionEn": "The best free ad blocking browser extension",
+          "descriptionAr": "أفضل إضافة حجب إعلانات ومتتبعين مجانية للمتصفح",
+          "descriptionEn": "The best free ad and tracker blocking browser extension",
           "tags": ["browser", "extension", "adblock"],
           "isFree": true,
           "hasFreeplan": true
         },
         {
-          "id": "p-6",
+          "id": "p-5",
           "title": "Have I Been Pwned",
           "url": "https://haveibeenpwned.com",
-          "descriptionAr": "تحقق إذا كان بريدك الإلكتروني مُعرّضاً لاختراق بيانات",
+          "descriptionAr": "تحقق إذا كان بريدك الإلكتروني تعرض لاختراق بيانات",
           "descriptionEn": "Check if your email was exposed in a data breach",
           "tags": ["security", "breach"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "p-6",
+          "title": "Signal",
+          "url": "https://signal.org",
+          "descriptionAr": "تطبيق مراسلة مشفر بالكامل وآمن تماماً - مفتوح المصدر",
+          "descriptionEn": "Fully encrypted and secure messaging app - open source",
+          "tags": ["messaging", "privacy", "encryption", "open-source"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "p-7",
+          "title": "PrivacyTools.io",
+          "url": "https://privacytools.io",
+          "descriptionAr": "دليل شامل لأدوات الخصوصية والأمان الرقمي الموصى بها",
+          "descriptionEn": "Comprehensive guide to recommended digital privacy and security tools",
+          "tags": ["privacy", "guide", "tools"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "p-8",
+          "title": "KeePassXC",
+          "url": "https://keepassxc.org",
+          "descriptionAr": "مدير كلمات مرور يعمل محلياً بدون سحابة - مفتوح المصدر",
+          "descriptionEn": "Local password manager without cloud - open source",
+          "tags": ["password", "security", "offline", "open-source"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "p-9",
+          "title": "Tor Browser",
+          "url": "https://torproject.org",
+          "descriptionAr": "تصفح الويب بشكل مجهول عبر شبكة Tor المشفرة",
+          "descriptionEn": "Browse the web anonymously through the encrypted Tor network",
+          "tags": ["browser", "privacy", "anonymity"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "p-10",
+          "title": "Tails OS",
+          "url": "https://tails.boum.org",
+          "descriptionAr": "نظام تشغيل من USB يتيح تصفحاً مجهولاً بدون أثر",
+          "descriptionEn": "USB OS that enables anonymous browsing leaving no trace",
+          "tags": ["os", "privacy", "linux"],
+          "isFree": true,
+          "hasFreeplan": true
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "icon": "🛡️",
+      "nameAr": "الأمن السيبراني",
+      "nameEn": "Cybersecurity",
+      "slug": "cybersecurity",
+      "resources": [
+        {
+          "id": "cs-1",
+          "title": "TryHackMe",
+          "url": "https://tryhackme.com",
+          "descriptionAr": "تعلم الأمن السيبراني بطريقة تفاعلية ومتدرجة مع مختبرات مجانية",
+          "descriptionEn": "Learn cybersecurity interactively and progressively with free labs",
+          "tags": ["hacking", "ctf", "learning"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "cs-2",
+          "title": "HackTheBox",
+          "url": "https://hackthebox.com",
+          "descriptionAr": "منصة اختبار الاختراق الأشهر مع تحديات CTF وآلات افتراضية",
+          "descriptionEn": "The most popular pen-testing platform with CTF challenges and virtual machines",
+          "tags": ["hacking", "ctf", "pentest"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "cs-3",
+          "title": "OverTheWire",
+          "url": "https://overthewire.org",
+          "descriptionAr": "ألعاب حرب وتحديات أمن سيبراني مجانية للمبتدئين",
+          "descriptionEn": "Free wargames and cybersecurity challenges for beginners",
+          "tags": ["wargames", "ctf", "linux"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "cs-4",
+          "title": "OWASP",
+          "url": "https://owasp.org",
+          "descriptionAr": "مشروع أمان تطبيقات الويب المفتوح - موارد ودراسات أمن مجانية",
+          "descriptionEn": "Open Web Application Security Project - free security resources and guides",
+          "tags": ["web-security", "guide", "owasp"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "cs-5",
+          "title": "Kali Linux",
+          "url": "https://kali.org",
+          "descriptionAr": "توزيعة Linux مخصصة لاختبار الاختراق والأمن السيبراني",
+          "descriptionEn": "Linux distribution dedicated to penetration testing and cybersecurity",
+          "tags": ["linux", "pentest", "tools"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "cs-6",
+          "title": "Wireshark",
+          "url": "https://wireshark.org",
+          "descriptionAr": "أداة تحليل حزم الشبكة الأكثر شيوعاً في العالم - مجانية",
+          "descriptionEn": "The world's most popular free network packet analyzer",
+          "tags": ["networking", "tools", "analysis"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "cs-7",
+          "title": "Cybrary",
+          "url": "https://cybrary.it",
+          "descriptionAr": "دورات أمن سيبراني مجانية ومدفوعة لجميع المستويات",
+          "descriptionEn": "Free and paid cybersecurity courses for all levels",
+          "tags": ["courses", "hacking", "certification"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "cs-8",
+          "title": "PicoCTF",
+          "url": "https://picoctf.org",
+          "descriptionAr": "تحديات CTF للمبتدئين من جامعة Carnegie Mellon - مجانية تماماً",
+          "descriptionEn": "CTF challenges for beginners from Carnegie Mellon University - completely free",
+          "tags": ["ctf", "beginner", "learning"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "cs-9",
+          "title": "Metasploit Framework",
+          "url": "https://metasploit.com",
+          "descriptionAr": "إطار اختبار الاختراق الأشهر مفتوح المصدر",
+          "descriptionEn": "The most famous open-source penetration testing framework",
+          "tags": ["pentest", "tools", "open-source"],
+          "isFree": true,
+          "hasFreeplan": true
+        }
+      ]
+    },
+    {
+      "id": "data-science",
+      "icon": "📊",
+      "nameAr": "علم البيانات",
+      "nameEn": "Data Science",
+      "slug": "data-science",
+      "resources": [
+        {
+          "id": "ds-1",
+          "title": "Kaggle",
+          "url": "https://kaggle.com",
+          "descriptionAr": "منصة علوم البيانات مع GPU مجاني ومنافسات وآلاف مجموعات البيانات",
+          "descriptionEn": "Data science platform with free GPU, competitions and thousands of datasets",
+          "tags": ["ml", "data", "competitions", "gpu"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ds-2",
+          "title": "Google Dataset Search",
+          "url": "https://datasetsearch.research.google.com",
+          "descriptionAr": "محرك بحث متخصص في إيجاد مجموعات البيانات المجانية",
+          "descriptionEn": "Search engine specialized in finding free datasets",
+          "tags": ["data", "datasets", "google"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ds-3",
+          "title": "Pandas Documentation",
+          "url": "https://pandas.pydata.org",
+          "descriptionAr": "المكتبة الأساسية لتحليل البيانات في Python - مجانية ومفتوحة المصدر",
+          "descriptionEn": "The essential data analysis library for Python - free and open-source",
+          "tags": ["python", "data", "library"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ds-4",
+          "title": "Scikit-learn",
+          "url": "https://scikit-learn.org",
+          "descriptionAr": "مكتبة تعلم الآلة الأشهر في Python مع توثيق ممتاز",
+          "descriptionEn": "The most popular machine learning library for Python with excellent docs",
+          "tags": ["ml", "python", "library"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ds-5",
+          "title": "TensorFlow",
+          "url": "https://tensorflow.org",
+          "descriptionAr": "إطار عمل التعلم العميق من Google مفتوح المصدر",
+          "descriptionEn": "Google's open-source deep learning framework",
+          "tags": ["dl", "ai", "google", "python"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ds-6",
+          "title": "PyTorch",
+          "url": "https://pytorch.org",
+          "descriptionAr": "إطار عمل التعلم العميق من Meta الأكثر شعبية في البحث العلمي",
+          "descriptionEn": "Meta's deep learning framework, most popular in scientific research",
+          "tags": ["dl", "ai", "python", "meta"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ds-7",
+          "title": "Matplotlib",
+          "url": "https://matplotlib.org",
+          "descriptionAr": "مكتبة رسم الرسوم البيانية الأساسية في Python",
+          "descriptionEn": "The essential charting and plotting library for Python",
+          "tags": ["visualization", "python", "charts"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ds-8",
+          "title": "Streamlit",
+          "url": "https://streamlit.io",
+          "descriptionAr": "إنشاء تطبيقات ويب تفاعلية لعلم البيانات بـ Python بسرعة مذهلة",
+          "descriptionEn": "Create interactive data science web apps with Python at amazing speed",
+          "tags": ["python", "data", "web", "visualization"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ds-9",
+          "title": "DuckDB",
+          "url": "https://duckdb.org",
+          "descriptionAr": "قاعدة بيانات تحليلية سريعة جداً تعمل في الذاكرة - مجانية ومفتوحة المصدر",
+          "descriptionEn": "Ultra-fast in-process analytical database - free and open-source",
+          "tags": ["database", "analytics", "open-source"],
+          "isFree": true,
+          "hasFreeplan": true
+        }
+      ]
+    },
+    {
+      "id": "linux",
+      "icon": "🐧",
+      "nameAr": "لينوكس والأنظمة",
+      "nameEn": "Linux & Systems",
+      "slug": "linux",
+      "resources": [
+        {
+          "id": "lx-1",
+          "title": "Ubuntu",
+          "url": "https://ubuntu.com",
+          "descriptionAr": "أشهر توزيعة Linux للمبتدئين والمطورين - مجانية تماماً",
+          "descriptionEn": "The most famous Linux distribution for beginners and developers - completely free",
+          "tags": ["linux", "os", "beginner"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lx-2",
+          "title": "Arch Linux",
+          "url": "https://archlinux.org",
+          "descriptionAr": "توزيعة Linux للمتقدمين - مرنة وخفيفة مع توثيق ممتاز",
+          "descriptionEn": "Linux distribution for advanced users - flexible, lightweight with excellent docs",
+          "tags": ["linux", "os", "advanced"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lx-3",
+          "title": "Arch Wiki",
+          "url": "https://wiki.archlinux.org",
+          "descriptionAr": "أفضل توثيق Linux في العالم - مفيد لجميع التوزيعات",
+          "descriptionEn": "The best Linux documentation in the world - useful for all distributions",
+          "tags": ["linux", "docs", "wiki"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lx-4",
+          "title": "Linux Journey",
+          "url": "https://linuxjourney.com",
+          "descriptionAr": "تعلم Linux من الصفر بطريقة سهلة وممتعة",
+          "descriptionEn": "Learn Linux from scratch in an easy and fun way",
+          "tags": ["linux", "learning", "beginner"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lx-5",
+          "title": "DistroWatch",
+          "url": "https://distrowatch.com",
+          "descriptionAr": "أخبار ومعلومات عن جميع توزيعات Linux وأنظمة BSD",
+          "descriptionEn": "News and information about all Linux distributions and BSD systems",
+          "tags": ["linux", "news", "distros"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lx-6",
+          "title": "ExplainShell",
+          "url": "https://explainshell.com",
+          "descriptionAr": "اشرح أي أمر Shell وافهم كل جزء منه تفصيلياً",
+          "descriptionEn": "Explain any Shell command and understand every part in detail",
+          "tags": ["linux", "shell", "learning"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lx-7",
+          "title": "TLDR Pages",
+          "url": "https://tldr.sh",
+          "descriptionAr": "ملخصات بسيطة لأوامر Linux بدلاً من man pages الطويلة",
+          "descriptionEn": "Simple summaries of Linux commands instead of long man pages",
+          "tags": ["linux", "cli", "reference"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lx-8",
+          "title": "Linux From Scratch",
+          "url": "https://linuxfromscratch.org",
+          "descriptionAr": "كيفية بناء نظام Linux من الصفر - لفهم عميق للأنظمة",
+          "descriptionEn": "How to build a Linux system from scratch - for deep understanding of systems",
+          "tags": ["linux", "advanced", "learning"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "lx-9",
+          "title": "WSL (Windows Subsystem for Linux)",
+          "url": "https://learn.microsoft.com/en-us/windows/wsl",
+          "descriptionAr": "تشغيل Linux داخل Windows بشكل كامل بدون آلة افتراضية",
+          "descriptionEn": "Run full Linux inside Windows without a virtual machine",
+          "tags": ["linux", "windows", "wsl"],
+          "isFree": true,
+          "hasFreeplan": true
+        }
+      ]
+    },
+    {
+      "id": "game-dev",
+      "icon": "🎮",
+      "nameAr": "تطوير الألعاب",
+      "nameEn": "Game Development",
+      "slug": "game-dev",
+      "resources": [
+        {
+          "id": "gd-1",
+          "title": "Godot Engine",
+          "url": "https://godotengine.org",
+          "descriptionAr": "محرك ألعاب مجاني ومفتوح المصدر قوي جداً - بديل Unity",
+          "descriptionEn": "Powerful free and open-source game engine - Unity alternative",
+          "tags": ["game-engine", "open-source", "2d", "3d"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "gd-2",
+          "title": "Unity",
+          "url": "https://unity.com",
+          "descriptionAr": "أشهر محرك ألعاب في العالم مع خطة شخصية مجانية",
+          "descriptionEn": "The world's most popular game engine with a free personal plan",
+          "tags": ["game-engine", "3d", "mobile"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "gd-3",
+          "title": "Unreal Engine",
+          "url": "https://unrealengine.com",
+          "descriptionAr": "محرك ألعاب AAA مجاني للاستخدام مع دفع 5% عند الإصدار",
+          "descriptionEn": "Free AAA game engine with 5% royalty only after release",
+          "tags": ["game-engine", "3d", "aaa"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "gd-4",
+          "title": "Pygame",
+          "url": "https://pygame.org",
+          "descriptionAr": "مكتبة Python لتطوير ألعاب 2D بسيطة - مثالية للمبتدئين",
+          "descriptionEn": "Python library for simple 2D game development - perfect for beginners",
+          "tags": ["python", "2d", "beginner"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "gd-5",
+          "title": "OpenGameArt",
+          "url": "https://opengameart.org",
+          "descriptionAr": "موارد فنية مجانية للألعاب - رسومات وموسيقى وصوتيات",
+          "descriptionEn": "Free game art assets - graphics, music and sounds",
+          "tags": ["assets", "art", "free"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "gd-6",
+          "title": "itch.io",
+          "url": "https://itch.io",
+          "descriptionAr": "منصة نشر الألعاب المستقلة - العب وانشر ألعابك مجاناً",
+          "descriptionEn": "Indie game publishing platform - play and publish games for free",
+          "tags": ["publishing", "indie", "games"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "gd-7",
+          "title": "LÖVE2D",
+          "url": "https://love2d.org",
+          "descriptionAr": "إطار عمل مجاني لتطوير ألعاب 2D بلغة Lua",
+          "descriptionEn": "Free framework for 2D game development with the Lua language",
+          "tags": ["lua", "2d", "framework"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "gd-8",
+          "title": "GDevelop",
+          "url": "https://gdevelop.io",
+          "descriptionAr": "محرك ألعاب 2D مجاني بدون كود - مثالي للمبتدئين",
+          "descriptionEn": "Free no-code 2D game engine - perfect for beginners",
+          "tags": ["game-engine", "no-code", "2d", "beginner"],
+          "isFree": false,
+          "hasFreeplan": true
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "icon": "🎨",
+      "nameAr": "التصميم والإبداع",
+      "nameEn": "Design & Creative",
+      "slug": "design",
+      "resources": [
+        {
+          "id": "de-1",
+          "title": "Figma",
+          "url": "https://figma.com",
+          "descriptionAr": "أداة تصميم واجهات تعاونية احترافية - خطة مجانية للطلاب",
+          "descriptionEn": "Professional collaborative UI design tool - free plan for students",
+          "tags": ["ui", "prototyping", "collaboration"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "de-2",
+          "title": "Canva",
+          "url": "https://canva.com",
+          "descriptionAr": "أداة تصميم سهلة الاستخدام للجميع - آلاف القوالب المجانية",
+          "descriptionEn": "Easy-to-use design tool for everyone - thousands of free templates",
+          "tags": ["design", "templates", "social-media"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "de-3",
+          "title": "Penpot",
+          "url": "https://penpot.app",
+          "descriptionAr": "بديل Figma مفتوح المصدر ومجاني تماماً يعمل في المتصفح",
+          "descriptionEn": "Completely free open-source Figma alternative that runs in the browser",
+          "tags": ["ui", "open-source", "design"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "de-4",
+          "title": "Unsplash",
+          "url": "https://unsplash.com",
+          "descriptionAr": "ملايين الصور عالية الجودة مجانية للاستخدام التجاري",
+          "descriptionEn": "Millions of high-quality photos free for commercial use",
+          "tags": ["photos", "free", "stock"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "de-5",
+          "title": "Pexels",
+          "url": "https://pexels.com",
+          "descriptionAr": "صور وفيديوهات مجانية عالية الجودة للاستخدام التجاري",
+          "descriptionEn": "Free high-quality photos and videos for commercial use",
+          "tags": ["photos", "video", "free", "stock"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "de-6",
+          "title": "Google Fonts",
+          "url": "https://fonts.google.com",
+          "descriptionAr": "مكتبة ضخمة من الخطوط المجانية تشمل خطوطاً عربية جميلة",
+          "descriptionEn": "Huge library of free fonts including beautiful Arabic fonts",
+          "tags": ["fonts", "typography", "arabic"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "de-7",
+          "title": "Coolors",
+          "url": "https://coolors.co",
+          "descriptionAr": "مولد لوحات ألوان احترافية بنقرة واحدة",
+          "descriptionEn": "Professional color palette generator with one click",
+          "tags": ["colors", "design", "tool"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "de-8",
+          "title": "Flaticon",
+          "url": "https://flaticon.com",
+          "descriptionAr": "ملايين الأيقونات المجانية بتنسيقات متعددة",
+          "descriptionEn": "Millions of free icons in multiple formats",
+          "tags": ["icons", "design", "free"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "de-9",
+          "title": "Lucide Icons",
+          "url": "https://lucide.dev",
+          "descriptionAr": "مجموعة أيقونات مفتوحة المصدر جميلة ومتسقة",
+          "descriptionEn": "Beautiful and consistent open-source icon collection",
+          "tags": ["icons", "open-source"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "de-10",
+          "title": "Spline",
+          "url": "https://spline.design",
+          "descriptionAr": "أداة تصميم ثلاثي الأبعاد في المتصفح لإضافة عناصر 3D لمواقعك",
+          "descriptionEn": "3D design tool in the browser to add 3D elements to your websites",
+          "tags": ["3d", "design", "web"],
+          "isFree": false,
+          "hasFreeplan": true
+        }
+      ]
+    },
+    {
+      "id": "apis",
+      "icon": "⚡",
+      "nameAr": "APIs وبيانات مجانية",
+      "nameEn": "Free APIs & Data",
+      "slug": "apis",
+      "resources": [
+        {
+          "id": "ap-1",
+          "title": "Public APIs (GitHub)",
+          "url": "https://github.com/public-apis/public-apis",
+          "descriptionAr": "قائمة ضخمة من APIs المجانية لجميع الاستخدامات",
+          "descriptionEn": "A massive list of free public APIs for all use cases",
+          "tags": ["api", "free", "collection"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ap-2",
+          "title": "RapidAPI",
+          "url": "https://rapidapi.com",
+          "descriptionAr": "سوق APIs ضخم مع آلاف APIs مجانية وخطط مدفوعة",
+          "descriptionEn": "Huge API marketplace with thousands of free APIs and paid plans",
+          "tags": ["api", "marketplace"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ap-3",
+          "title": "OpenWeather API",
+          "url": "https://openweathermap.org/api",
+          "descriptionAr": "API الطقس المجاني مع بيانات حقيقية لجميع دول العالم",
+          "descriptionEn": "Free weather API with real data for all countries in the world",
+          "tags": ["api", "weather", "free"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ap-4",
+          "title": "JSONPlaceholder",
+          "url": "https://jsonplaceholder.typicode.com",
+          "descriptionAr": "API وهمي مجاني للاختبار والتطوير",
+          "descriptionEn": "Free fake API for testing and prototyping",
+          "tags": ["api", "testing", "mock"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ap-5",
+          "title": "The Movie Database API",
+          "url": "https://themoviedb.org/documentation/api",
+          "descriptionAr": "API مجاني لبيانات الأفلام والمسلسلات - مثالي للمشاريع",
+          "descriptionEn": "Free API for movies and TV shows data - perfect for projects",
+          "tags": ["api", "movies", "free"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ap-6",
+          "title": "News API",
+          "url": "https://newsapi.org",
+          "descriptionAr": "API أخبار مجاني يجمع عناوين من مئات المصادر",
+          "descriptionEn": "Free news API aggregating headlines from hundreds of sources",
+          "tags": ["api", "news"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ap-7",
+          "title": "GitHub API",
+          "url": "https://docs.github.com/en/rest",
+          "descriptionAr": "API GitHub الرسمي للوصول إلى بيانات المشاريع والمطورين",
+          "descriptionEn": "Official GitHub API to access project and developer data",
+          "tags": ["api", "github", "free"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "ap-8",
+          "title": "RestCountries API",
+          "url": "https://restcountries.com",
+          "descriptionAr": "API مجاني لبيانات جميع دول العالم - الجزائر مدرجة!",
+          "descriptionEn": "Free API with data about all countries in the world - Algeria included!",
+          "tags": ["api", "countries", "free"],
           "isFree": true,
           "hasFreeplan": true
         }
@@ -665,47 +1829,47 @@
     },
     {
       "id": "entertainment",
-      "icon": "🎮",
+      "icon": "🎬",
       "nameAr": "ترفيه",
       "nameEn": "Entertainment",
       "slug": "entertainment",
       "resources": [
         {
           "id": "e-1",
-          "title": "Spotify (Free Tier)",
-          "url": "https://spotify.com",
-          "descriptionAr": "استماع للموسيقى مجاناً مع إعلانات",
-          "descriptionEn": "Listen to music for free with ads",
-          "tags": ["music", "streaming"],
-          "isFree": false,
+          "title": "YouTube",
+          "url": "https://youtube.com",
+          "descriptionAr": "أكبر منصة فيديو في العالم - مجانية ومتاحة في الجزائر",
+          "descriptionEn": "The world's largest video platform - free and accessible in Algeria",
+          "tags": ["video", "streaming", "free"],
+          "isFree": true,
           "hasFreeplan": true
         },
         {
           "id": "e-2",
-          "title": "YouTube",
-          "url": "https://youtube.com",
-          "descriptionAr": "أكبر منصة فيديو في العالم - مجانية",
-          "descriptionEn": "The world's largest video platform - free",
-          "tags": ["video", "streaming", "free"],
-          "isFree": true,
+          "title": "Spotify",
+          "url": "https://spotify.com",
+          "descriptionAr": "استمع لملايين الأغاني مجاناً مع إعلانات",
+          "descriptionEn": "Listen to millions of songs for free with ads",
+          "tags": ["music", "streaming"],
+          "isFree": false,
           "hasFreeplan": true
         },
         {
           "id": "e-3",
           "title": "Epic Games Store (Free Games)",
           "url": "https://epicgames.com/store",
-          "descriptionAr": "ألعاب مجانية كل أسبوع من Epic Games",
-          "descriptionEn": "Free games every week from Epic Games",
+          "descriptionAr": "ألعاب مجانية كل أسبوع - احصل عليها قبل انتهاء المدة",
+          "descriptionEn": "Free games every week - grab them before they expire",
           "tags": ["gaming", "free"],
           "isFree": true,
           "hasFreeplan": true
         },
         {
           "id": "e-4",
-          "title": "Archive.org",
+          "title": "Internet Archive",
           "url": "https://archive.org",
-          "descriptionAr": "أرشيف الإنترنت - ملايين الكتب والأفلام والموسيقى المجانية",
-          "descriptionEn": "Internet Archive - millions of free books, films, and music",
+          "descriptionAr": "أرشيف الإنترنت - ملايين الكتب والأفلام والموسيقى الكلاسيكية مجاناً",
+          "descriptionEn": "Internet Archive - millions of free books, films and classic music",
           "tags": ["archive", "books", "music", "free"],
           "isFree": true,
           "hasFreeplan": true
@@ -714,9 +1878,29 @@
           "id": "e-5",
           "title": "Twitch",
           "url": "https://twitch.tv",
-          "descriptionAr": "منصة البث المباشر للألعاب والتقنية",
-          "descriptionEn": "Live streaming platform for gaming and tech",
+          "descriptionAr": "منصة البث المباشر للألعاب والبرمجة والتقنية",
+          "descriptionEn": "Live streaming platform for gaming, coding and tech",
           "tags": ["gaming", "streaming"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "e-6",
+          "title": "SoundCloud",
+          "url": "https://soundcloud.com",
+          "descriptionAr": "استمع لموسيقى مستقلة ومشاركة مقطوعاتك الموسيقية مجاناً",
+          "descriptionEn": "Listen to indie music and share your own tracks for free",
+          "tags": ["music", "indie", "streaming"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "e-7",
+          "title": "Librivox",
+          "url": "https://librivox.org",
+          "descriptionAr": "كتب صوتية مجانية من المجال العام - بقراءة متطوعين",
+          "descriptionEn": "Free public domain audiobooks read by volunteers",
+          "tags": ["audiobooks", "free", "reading"],
           "isFree": true,
           "hasFreeplan": true
         }
@@ -733,8 +1917,8 @@
           "id": "m-1",
           "title": "Termux",
           "url": "https://termux.dev",
-          "descriptionAr": "محاكي طرفية Linux على Android - برمج من هاتفك",
-          "descriptionEn": "Linux terminal emulator on Android - code from your phone",
+          "descriptionAr": "محاكي طرفية Linux على Android - برمج من هاتفك بالكامل",
+          "descriptionEn": "Linux terminal emulator on Android - code fully from your phone",
           "tags": ["android", "linux", "terminal"],
           "isFree": true,
           "hasFreeplan": true
@@ -743,8 +1927,8 @@
           "id": "m-2",
           "title": "GitHub Mobile",
           "url": "https://github.com/mobile",
-          "descriptionAr": "إدارة مشاريع GitHub من هاتفك",
-          "descriptionEn": "Manage your GitHub projects from your phone",
+          "descriptionAr": "إدارة مشاريع ومراجعة كود GitHub من هاتفك",
+          "descriptionEn": "Manage projects and review code on GitHub from your phone",
           "tags": ["android", "ios", "github"],
           "isFree": true,
           "hasFreeplan": true
@@ -753,29 +1937,49 @@
           "id": "m-3",
           "title": "Duolingo",
           "url": "https://duolingo.com",
-          "descriptionAr": "تعلم اللغات مجاناً بطريقة ممتعة وتفاعلية",
-          "descriptionEn": "Learn languages for free in a fun and interactive way",
+          "descriptionAr": "تعلم اللغات مجاناً بطريقة ممتعة وتفاعلية يومياً",
+          "descriptionEn": "Learn languages for free in a fun and interactive way daily",
           "tags": ["language", "learning"],
           "isFree": true,
           "hasFreeplan": true
         },
         {
           "id": "m-4",
-          "title": "Khan Academy App",
-          "url": "https://khanacademy.org/app",
-          "descriptionAr": "تطبيق Khan Academy للتعلم في أي وقت ومكان",
-          "descriptionEn": "Khan Academy app for learning anywhere, anytime",
-          "tags": ["learning", "math", "android", "ios"],
+          "title": "Anki",
+          "url": "https://apps.ankiweb.net",
+          "descriptionAr": "تطبيق بطاقات تذكر ذكية لحفظ أي شيء - مجاني على Android",
+          "descriptionEn": "Smart flashcard app to memorize anything - free on Android",
+          "tags": ["study", "flashcards", "learning"],
           "isFree": true,
           "hasFreeplan": true
         },
         {
           "id": "m-5",
-          "title": "Anki",
-          "url": "https://apps.ankiweb.net",
-          "descriptionAr": "تطبيق بطاقات تذكر ذكية لتعلم البرمجة والمواد الدراسية",
-          "descriptionEn": "Smart flashcard app for learning programming and study material",
-          "tags": ["study", "flashcards", "learning"],
+          "title": "Obsidian",
+          "url": "https://obsidian.md",
+          "descriptionAr": "أفضل تطبيق لتدوين الملاحظات وربط الأفكار - مجاني للاستخدام الشخصي",
+          "descriptionEn": "The best note-taking and knowledge linking app - free for personal use",
+          "tags": ["notes", "productivity", "markdown"],
+          "isFree": true,
+          "hasFreeplan": true
+        },
+        {
+          "id": "m-6",
+          "title": "Acode (Android Code Editor)",
+          "url": "https://acode.app",
+          "descriptionAr": "محرر كود احترافي على Android مع دعم للعديد من اللغات",
+          "descriptionEn": "Professional code editor on Android with support for many languages",
+          "tags": ["android", "editor", "code"],
+          "isFree": false,
+          "hasFreeplan": true
+        },
+        {
+          "id": "m-7",
+          "title": "Khan Academy App",
+          "url": "https://khanacademy.org/app",
+          "descriptionAr": "تعلم الرياضيات والبرمجة والعلوم من هاتفك في أي وقت",
+          "descriptionEn": "Learn math, programming and science from your phone anytime",
+          "tags": ["learning", "math", "android", "ios"],
           "isFree": true,
           "hasFreeplan": true
         }

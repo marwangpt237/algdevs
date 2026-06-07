@@ -35,7 +35,7 @@ A bilingual (Arabic primary, English secondary) free resource directory for Alge
 
 ## Product
 
-- Homepage with hero search, category grid, stats (10 categories, 69 resources)
+- Homepage with hero search, category grid, stats (16 categories, 184 resources)
 - Category pages with tag filtering and free-only toggle
 - Submit page linking to GitHub Issues for community submissions
 - About page with mission and contribution guide
