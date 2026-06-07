@@ -68,7 +68,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           </p>
           <p className="text-sm text-muted-foreground">
             <a
-              href="https://github.com/algdevs/algdevs"
+              href="https://github.com/marwangpt237/algdevs"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
