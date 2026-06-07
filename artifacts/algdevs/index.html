@@ -1,21 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>AlgDevs</title>
-    <meta name="description" content="AlgDevs — built on Replit. Update this description to reflect the app." />
+    <title>AlgDevs — دليل مطوري الجزائر</title>
+    <meta name="description" content="AlgDevs — دليل شامل للموارد والأدوات المجانية للمطورين والطلاب الجزائريين. أكثر من 184 مصدر في 16 قسم." />
     <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="AlgDevs" />
-    <meta property="og:description" content="AlgDevs — built on Replit. Update this description to reflect the app." />
+    <meta property="og:title" content="AlgDevs — دليل مطوري الجزائر" />
+    <meta property="og:description" content="مجموعة منتقاة من الأدوات، الدورات، والمصادر المجانية للمطورين والطلاب الجزائريين." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://marwangpt237.github.io/algdevs/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="AlgDevs" />
-    <meta name="twitter:description" content="AlgDevs — built on Replit. Update this description to reflect the app." />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="twitter:title" content="AlgDevs — دليل مطوري الجزائر" />
+    <meta name="twitter:description" content="مجموعة منتقاة من الأدوات، الدورات، والمصادر المجانية للمطورين والطلاب الجزائريين." />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+        var l = window.location;
+        if (l.search[1] === 'p') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&');
+          });
+          var path = decoded[0].replace('p=/', '');
+          var query = decoded[1] ? decoded[1].replace('q=', '') : '';
+          window.history.replaceState(
+            null, null,
+            l.pathname.split('/').slice(0, 2).join('/') + '/' + path +
+            (query ? '?' + query : '') + l.hash
+          );
+        }
+      }());
+    </script>
   </head>
   <body>
     <div id="root"></div>
